@@ -45,4 +45,10 @@ The shortest leg is called the Cathode and this is connected to Ground, often re
   
 We shall be using a breadboard which enables projects to be prototyped and tested by pushing components into the breadboard. 
 
-How a breadboard works is by thin strips of metal stretch horizontally across the board, known as rows, latching on to the components as they are pushed into the hole. Components in the same row are electrically connected, but to build a circuit we will also work vertically, known as columns.
+How a breadboard works is by thin strips of metal stretch horizontally across the board, known as rows, latching on to the components as they are pushed into the hole. Components in the same row are electrically connected, but to build a circuit we will also work vertically, known as columns. In the centre of the board there is a channel that serves as a divider, there is no connection between the two sides of the board, unless we use a component to bridge the divide.
+
+For our first circuit we shall use the wires connected to 3V and GND. Insert the LED as per the illustration, with the long leg of the LED on the left of the board, the short leg of the LED should be inserted on the other side of the board.
+
+Now take the wire from 3V and connect it *in-line *with the long leg of our LED. Now take the wire from GND and connect it*in-line* with the short leg of our LED.
+
+![alt](http://Hardware_Test.png)
