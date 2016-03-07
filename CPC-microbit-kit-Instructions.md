@@ -54,3 +54,23 @@ Now take the wire from 3V and connect it *in-line *with the long leg of our LED.
 ![alt](https://github.com/lesp/Microbit_Kit/blob/master/Hardware_Test.png) 
 
 The LED will now light up, confirming that our code is correct.
+
+## Project 1 - Flash an LED  
+
+With this test complete, remove the 3V wire from the breadboard. In its place add the wire from "0" instead.
+
+You may have noticed that when we added the "0" wire to our circuit that nothing happened. This is because we haven't programmed it to do anything.
+
+To program the micro:bit to flash an LED we shall use the Microsoft Blocks editor which can be found at [https://www.microbit.co.uk/create-code](https://www.microbit.co.uk/create-code) 
+
+Click on "New Project" and the page will change to an editing window. This new window is blank but has a series of menus to the left.
+
+Look for the menu labelled "Loops", left click on the menu and a series of blocks will appear. Using the left mouse button, click and drag "while true" from the menu and drop it into the main window. This loop will run any code inside of it forever.
+
+Look back at the menu, find the Pins menu, left click on it and choose "digital write (0,1) 1 to pin P0". Drag this block and drop it inside of the loop. By default this block is set to turn on Pin 0\. In coding 1 is equal to on and 0 to off.
+
+Now look for the Basic menu, left click on it and choose the "pause (ms) 100" block, drag it and place it under the previous block but inside of the loop.  Milliseconds is abbreviated to ms and 100 is equal to a tenth of a second. To change the pause to 1 second, left click on the value and type in the 1000\.
+
+From the Pins menu grab another "digital write (0,1) 1 to pin P0" and place it under the pause block. This time change the value of "1" to "0" indicating that we wish to turn the pin off.
+
+Finally add another "pause (ms) 100" block under the previous block but still inside the loop.
