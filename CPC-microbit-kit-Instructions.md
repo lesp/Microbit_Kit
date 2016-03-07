@@ -51,4 +51,4 @@ For our first circuit we shall use the wires connected to 3V and GND. Insert the
 
 Now take the wire from 3V and connect it *in-line *with the long leg of our LED. Now take the wire from GND and connect it*in-line* with the short leg of our LED.
 
-![alt](http://Hardware_Test.png)
+![alt](http://./Hardware_Test.png)
